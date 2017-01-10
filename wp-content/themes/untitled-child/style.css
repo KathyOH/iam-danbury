@@ -1,0 +1,70 @@
+/*
+ Theme Name:   Untitled Child
+ Theme URI:    http://example.com/untitled-child/
+ Description:  Untitled Child Theme - IAM Danbury
+ Author:       Kathy Hoile
+ Author URI:   http://kohoile.com
+ Template:     untitled
+ Version:      1.1.4
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  untitled-child
+*/
+
+@import url("../untitled/style.css");
+
+.entry-header {
+	display: none;
+}
+.content-area {
+	max-width: 1000px;
+}
+h1 {
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+
+/* Homepage */
+.huge_it_google_map_container {
+	width: 600px;
+	margin-left: 20%;
+}
+
+/* Contact Us */
+.staff-head {
+	margin-top: 25px;
+}
+.staff {
+	margin-left: 0;
+}
+.employee-area {
+	width: 350px;
+	margin-top; 20%;
+	overflow: auto;
+	margin: 20px;
+}
+.staff-info{
+	float: left;
+	display: inline-block;
+}
+.image {
+	width: 175px;
+}
+.director {
+	margin-top: 5%;
+	width: 40%;
+	display: inline-block;
+	float: left;
+	margin-left: 15%;
+}
+.coordinator {
+	display: inline-block;
+	float: left;
+	padding-left: 2px;
+}
+.board {
+	margin-left: 37%;
+}
+.board-head {
+	margin-top: 0%;
+	padding-top: 0%;
+}
