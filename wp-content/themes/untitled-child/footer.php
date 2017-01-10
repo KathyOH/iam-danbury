@@ -23,7 +23,7 @@
 				</p>	
 				
 				<div class="facebook-link">
-					<a class="fa fa-facebook" href="https://www.facebook.com/iamofgreaterdanbury/" title="Facebook" target="_blank"></a>
+					<a><i class="fa fa-facebook" href="https://www.facebook.com/iamofgreaterdanbury/" title="Facebook" target="_blank" "font-size"></i></a>
 				</div>
 				
 			</div><!-- .site-info -->

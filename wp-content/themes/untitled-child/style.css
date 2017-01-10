@@ -30,50 +30,43 @@ h1 {
 }
 
 /* Contact Us */
+
+.staff {
+	margin-top: 3%;
+	margin-left: 0;
+	width: auto;
+	margin-bottom: 17.5%;
+}
 .staff-head {
+	text-align: center;
 	margin-top: 25px;
 }
-.staff {
-	margin-left: 0;
-}
-.employee-area {
-	width: 350px;
-	margin-top; 20%;
-	overflow: auto;
-	margin: 20px;
-}
-.staff-info{
-	float: left;
-	display: inline-block;
-}
+
 .image {
 	width: 175px;
 }
 .director {
-	margin-top: 5%;
-	width: 40%;
-	display: inline-block;
+	margin-left: 32%;
+	display: block;
 	float: left;
-	margin-left: 15%;
 }
 .coordinator {
-	display: inline-block;
+	margin-left: 7%;
+	display: block;
 	float: left;
-	padding-left: 2px;
 }
 .board {
-	margin-left: 37%;
+	margin-left: 42%;
+	margin-bottom: 5%;
 }
-.board-head {
-	margin-top: 0%;
-	padding-top: 0%;
-}
+
 
 /* Footer */
 .iam-footer {
 	width: 35%;
 }
-.facebook-link {
+i {
+	font-size: 100px;
 	width: 15px;
 	float: right;
 }
