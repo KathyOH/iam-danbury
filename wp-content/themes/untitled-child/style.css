@@ -68,3 +68,12 @@ h1 {
 	margin-top: 0%;
 	padding-top: 0%;
 }
+
+/* Footer */
+.iam-footer {
+	width: 35%;
+}
+.facebook-link {
+	width: 15px;
+	float: right;
+}
