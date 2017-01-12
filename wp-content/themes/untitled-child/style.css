@@ -38,22 +38,18 @@ h1 {
 	margin-bottom: 18.5%;
 }
 .staff-head {
-	text-align: center;
+	overflow: auto;
 	margin-top: 25px;
+}
+.employee-area {
+	width: 48%;
+	float: left;
+	text-align: center;
 }
 
 .image {
 	width: 175px;
-}
-.director {
-	margin-left: 29%;
-	display: block;
-	float: left;
-}
-.coordinator {
-	margin-left: 8%;
-	display: block;
-	float: left;
+	margin: 0 auto;
 }
 .board {
 	margin-left: 42%;
@@ -63,15 +59,12 @@ h1 {
 
 /* Footer */
 .footer-info {
-	width: 35%;
+	float: left;
 }
 i {
 	font-size: 500px;
 	width: 15px;
 	float: right;
-}
-.facebook-link {
-	margin-top: -12%;
 }
 .iam-footer {
 	margin-bottom: 12%;

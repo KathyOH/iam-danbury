@@ -36,14 +36,14 @@ get_header(); ?>
 <div class="contact-page">
 <div class="staff-head">
 	<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>Staff</strong></span></h1>
-</div>
+</div><!--staff-head-->
 	
 	<div class="staff">
 		<div class="employee-area">
 			<div class="director">
 				<div class="image">
 					<?php echo wp_get_attachment_image($director_photo, $size); ?>
-				</div>
+				</div><!--image-->
 				<div class="staff-info">
 					<?php echo $director_name; ?><br>
 					<span style="text-decoration: underline; color: #0000ff;">
@@ -52,15 +52,15 @@ get_header(); ?>
 							<?php echo $director_email ?>
 						</a>
 					</span>
-				</div>
-			</div>
-		</div>
+				</div><!--staff-info-->
+			</div><!--director-->
+		</div><!--employee-area-->
 			
 		<div class="employee-area">		
 			<div class="coordinator">
 				<div class="image">
 					<?php echo wp_get_attachment_image($coordinator_photo, $size); ?>
-				</div>
+				</div><!--image-->
 				<div class="staff-info">	
 					<?php echo $coordinator_name; ?><br>
 					<span style="text-decoration: underline; color: #0000ff;">
@@ -69,10 +69,10 @@ get_header(); ?>
 							<?php echo $coordinator_email ?>
 						</a>
 					</span>
-				</div>
-			</div>	
-		</div>
-	</div>
+				</div><!--staff info-->
+			</div><!--coordinator-->	
+		</div><!--employee-area-->
+	</div><!--staff-->
 			
 
 			<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>Board</strong></span></h1>
@@ -91,10 +91,10 @@ get_header(); ?>
 	<strong>Consultant</strong><br>
 	<?php echo $consultant; ?><br>
 
-</div>
+</div><!--board-->
 
 
-</div>
+</div><!--contact-page-->
 
 
 
