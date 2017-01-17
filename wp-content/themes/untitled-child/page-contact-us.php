@@ -78,18 +78,41 @@ get_header(); ?>
 			<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>Board</strong></span></h1>
 
 <div class="board">
-	<?php echo $board_1; ?><br>
-	<?php echo $board_2; ?><br>
-	<?php echo $board_3; ?><br>
-	<?php echo $board_4; ?><br>
-	<?php echo $board_5; ?><br>
-	<?php echo $board_6; ?><br>
-	<?php echo $board_7; ?><br>
-	<?php echo $board_8; ?><br>
-	<?php echo $board_9; ?>
-	<?php echo $board_10; ?>
-	<strong>Consultant</strong><br>
-	<?php echo $consultant; ?><br>
+	<?php if ($board_1) { ?>
+		<?php echo $board_1; ?><br>
+	<?php } ?>
+	<?php if ($board_2) { ?>
+		<?php echo $board_2; ?><br>
+	<?php } ?>
+	<?php if ($board_3) { ?>
+		<?php echo $board_3; ?><br>
+	<?php } ?>
+	<?php if ($board_4) { ?>
+		<?php echo $board_4; ?><br>
+	<?php } ?>
+	<?php if ($board_5) { ?>
+		<?php echo $board_5; ?><br>
+	<?php } ?>
+	<?php if ($board_6) { ?>
+		<?php echo $board_6; ?><br>
+	<?php } ?>
+	<?php if ($board_7) { ?>
+		<?php echo $board_7; ?><br>
+	<?php } ?>
+	<?php if ($board_8) { ?>
+		<?php echo $board_8; ?><br>
+	<?php } ?>
+	<?php if ($board_9) { ?>
+		<?php echo $board_9; ?><br>
+	<?php } ?>
+	<?php if ($board_10) { ?>
+		<?php echo $board_10; ?><br>
+	<?php } ?>
+	<br>
+	<?php if ($consultant) { ?>
+		<strong>Consultant</strong><br>
+		<?php echo $consultant; ?><br>
+	<?php } ?>
 
 </div><!--board-->
 
