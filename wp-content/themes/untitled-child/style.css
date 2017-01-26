@@ -30,7 +30,9 @@ h1 {
 }
 
 /* Contact Us */
-
+a {
+	font-size: 9px;
+}
 .staff {
 	margin-top: 3%;
 	margin-left: 0;

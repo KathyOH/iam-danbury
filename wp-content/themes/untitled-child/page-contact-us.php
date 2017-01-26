@@ -47,7 +47,7 @@ get_header(); ?>
 				<div class="staff-info">
 					<?php echo $director_name; ?><br>
 					<span style="text-decoration: underline; color: #0000ff;">
-						<a style="color: #0000ff; text-decoration: underline;" 
+						<a style="color: #0000ff; text-decoration: underline; font-size: 75%" 
 						   href="mailto:<?php echo $director_email; ?>"> 
 							<?php echo $director_email ?>
 						</a>
@@ -64,7 +64,7 @@ get_header(); ?>
 				<div class="staff-info">	
 					<?php echo $coordinator_name; ?><br>
 					<span style="text-decoration: underline; color: #0000ff;">
-						<a style="color: #0000ff; text-decoration: underline;" 
+						<a style="color: #0000ff; text-decoration: underline; font-size: 75%" 
 						   href="mailto:<?php echo $coordinator_email; ?>"> 
 							<?php echo $coordinator_email ?>
 						</a>
