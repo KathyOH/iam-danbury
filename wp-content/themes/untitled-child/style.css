@@ -25,7 +25,8 @@ h1 {
 
 /* Homepage */
 .huge_it_google_map_container {
-	width: 600px;
+	width: 60%;
+	height: auto;
 	margin-left: 20%;
 }
 
