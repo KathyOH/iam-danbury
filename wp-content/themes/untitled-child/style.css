@@ -30,6 +30,17 @@ h1 {
 	margin-left: 20%;
 }
 
+/* Donate */
+
+h1.give-form-title.entry-title {
+	font-family: 'Genericons';
+	color: red;
+}
+#give-form-209 {
+	background: #c0c0c0;
+}
+
+
 /* Contact Us */
 
 .staff {
@@ -69,9 +80,4 @@ i {
 }
 .iam-footer {
 	margin-bottom: 12%;
-}
-
-/* Donate */
-#give-form-209.give-form.give-form-209.give-form-type-set {
-	width: 50%;
 }
