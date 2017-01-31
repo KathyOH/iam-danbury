@@ -30,17 +30,32 @@ h1 {
 	margin-left: 20%;
 }
 
+/* Pantry */
+
+.alignright {
+    display: inline;
+    float: right;
+    margin: 1.5em;
+}
+.pantry-benefits {
+	margin-left: 10%;
+}
+
 /* Donate */
 
-h1.give-form-title.entry-title {
-	font-family: 'Genericons';
-	color: red;
+#give-form-content-270.give-form-wrap.give-display-modal {
+	width: 25%;
+	display: inline;
+	float: left;
 }
-#give-form-209 {
-	background: #c0c0c0;
+#give-form-270.give-form.give-form-270 {
+	width: 45%;
+	display: inline;
 }
-
-
+.urgent-needs {
+	width: 70%;
+	margin-left: 10%;
+}
 /* Contact Us */
 
 .staff {
