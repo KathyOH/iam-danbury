@@ -43,14 +43,23 @@ h1 {
 
 /* Donate */
 
-#give-form-content-270.give-form-wrap.give-display-modal {
-	width: 25%;
-	display: inline;
-	float: left;
+[id*=give-form] div.give-form-content-wrap {
+    max-width: 30%;
+    display: inline-block;
+    float: left;
+	margin-left: 12%;
 }
-#give-form-270.give-form.give-form-270 {
-	width: 45%;
-	display: inline;
+
+#give-recurring-form, form.give-form, form[id*=give-form] {
+    max-width: 65%;
+    display: inline-block;
+	padding-bottom: 5%;
+	margin-top: 7%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+#give-form-270-wrap {
+	background-color: #d3d3d3;
 }
 .urgent-needs {
 	width: 70%;
