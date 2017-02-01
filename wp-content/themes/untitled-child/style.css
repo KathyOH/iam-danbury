@@ -94,11 +94,13 @@ button.give-btn.give-btn-modal {
 }
 /* Contact Us */
 
+/* Staff if add photos 
+
 .staff {
 	margin-top: 3%;
 	margin-left: 0;
 	width: auto;
-	margin-bottom: 18.5%;
+	margin-bottom: 10%;
 }
 .staff-head {
 	overflow: auto;
@@ -114,11 +116,24 @@ button.give-btn.give-btn-modal {
 	width: 175px;
 	margin: 0 auto;
 }
+*/
+.director {
+	margin-bottom: 1.5%;
+}
+.staff {
+	text-align: center;
+	margin-bottom: 3.5%;
+}
+.board {
+	text-align: center; 
+	margin-bottom: 5%;
+}
+/* Board if add staff photos
 .board {
 	margin-left: 42%;
 	margin-bottom: 5%;
 }
-
+*/
 
 /* Footer */
 .footer-info {
