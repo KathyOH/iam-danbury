@@ -26,8 +26,8 @@ img {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 /* Styles */
 	img.header-image {
-		background-size: contain;
-		
+		width: 375px;
+		height: auto;
 	}
 }
 
