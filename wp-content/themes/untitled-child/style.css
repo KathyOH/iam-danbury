@@ -27,7 +27,9 @@ img {
 /* Styles */
 	img.header-image {
 		display: none;
-		background-image: url("http://localhost:8888/IAM/wp-content/uploads/2017/02/many-hands-with-logo-for-phone.jpg");
+	}
+	img.header-image {
+	background-image: url("http://localhost:8888/IAM/wp-content/uploads/2017/02/many-hands-with-logo-for-phone.jpg");
 	}
 }
 h1 {
