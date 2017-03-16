@@ -23,6 +23,26 @@ img {
 	height: auto; !important
 }
 
+
+/* Images */
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img,
+#sidebar img,
+.wp-caption {
+	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+img.aligncenter,
+.wp-caption.aligncenter {
+	margin: 0 auto 1.5em auto;
+	max-width: 100%;
+	height: auto;
+}
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
 /* Styles */
 	
