@@ -1973,11 +1973,9 @@ final class Give_Payment {
 	private function setup_transaction_id() {
 		$transaction_id = $this->get_meta( '_give_payment_transaction_id', true );
 
-		if ( empty( $transaction_id ) || (int) $transaction_id === (int) $this->ID ) {
-
+		if ( empty( $transaction_id ) ) {
 			$gateway        = $this->gateway;
 			$transaction_id = apply_filters( "give_get_payment_transaction_id-{$gateway}", $this->ID );
-
 		}
 
 		return $transaction_id;
@@ -2222,6 +2220,19 @@ final class Give_Payment {
 	 */
 	public function array_convert() {
 		return get_object_vars( $this );
+	}
+
+
+	/**
+	 * Flag to check if donation is completed or not.
+	 *
+	 * @since  1.8
+	 * @access public
+	 *
+	 * @return bool
+	 */
+	public function is_completed() {
+		return ( 'publish' === $this->status && $this->completed_date );
 	}
 
 	/**
